@@ -1,0 +1,82 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridOne :nth-child(2) {
+    color: blue;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gridTwo >.whatever {
+    background-color: red;
+}
+
+.gridTwo >.text {
+    background-color: blue;
+}
+
+.gridTwo >.iwant {
+    background-color: yellow;
+}
+
+.gridThree {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+
+}
+
+.gridThree > .awesome img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    width: 500px;
+    background-color: green;
+    margin-top: 28px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.gridFour > #secondparr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    width: 500px;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.gridFive > #nature :nth-child(1) {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.gridFive > #nature :nth-child(2) {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    width: 500px;
+    background-color: lightgray;
+    font-family: 'Protest Revolution', sans-serif;;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
